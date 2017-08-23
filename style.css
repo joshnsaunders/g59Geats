@@ -1,0 +1,208 @@
+body{
+  display:grid;
+  grid-auto-rows: 10% 80% 10%;
+}
+nav{
+  height:100%;
+  font-size:1.5em;
+  font-family:raleway;
+  background-color:
+}
+main{
+  display:grid;
+  grid-template-rows: 65% 35%;
+  grid-gap:2%;
+  height:620px;
+  width:100%;
+}
+.subTitles{
+  font-family:roboto;
+  padding-right:45px;
+  padding-left:50px;
+}
+#shop{
+  position:absolute;
+  top:458px;
+  left:190px;
+}
+#money{
+  position:absolute;
+  top:458px;
+  left:820px;
+}
+#fast{
+  position:absolute;
+  top:458px;
+  left:510px;
+}
+i{
+  z-index:99;
+}
+
+.subText{
+  font-family: raleway;
+  font-size:.9em;
+  letter-spacing: 0.02em;
+  line-height: 175%;
+  padding-top:2%;
+}
+#mainButton{
+  position:absolute;
+  top:45%;
+  left:29%;
+  height:8%;
+  width:40%;
+  background-color: green;
+  color:white;
+  z-index:99;
+  text-align:center;
+  line-height: 170%;
+  font-family:raleway;
+  font-size:2em;
+  letter-spacing: 0.03em;
+}
+
+#descriptions {
+  display:grid;
+  grid-gap:2%;
+  grid-template-columns: 11.5% 23% 23% 23% 11.5%;
+  height:94%;
+  background-color:lightblue;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:40px;
+  margin-top:10px;
+  font-size:1em;
+  background-color: gray;
+}
+label{
+  display:flex;
+  justify-content: center;
+  font-family: roboto;
+  font-size: 1.6em;
+  padding-right:20px;
+}
+.orderInput{
+  height:25px;
+  width:50px;
+}
+.quantityInput{
+  padding-left:27px;
+}
+#menus{
+  display:none;
+  background-image: url("pexels-space.jpeg");
+  height:580px;
+  padding:20px;
+}
+#menuTitle{
+  display:flex;
+  justify-content: center;
+  font-family: roboto;
+  font-size:2em;
+  text-decoration: underline;
+  color:white;
+}
+#order{
+  display:none;
+  background-color:lightblue;
+  height:620px;
+}
+#map{
+  display:none;
+  background-color: lightgreen;
+  height:620px;;
+}
+.menuItems{
+  display:grid;
+  grid-auto-rows: 20% 20% 20% 20% 20%;
+}
+.items{
+  display:grid;
+  grid-template-columns: 33% 33% 33%;
+  padding-left:0px;
+  line-height: 400%;
+  font-family: roboto;
+  font-size: 1em;
+  color:white;
+}
+.itemPrice{
+padding-left:25px;
+}
+.itemName{
+  padding-left:0px;
+}
+#orderAndTotal{
+  display:none;
+}
+#orderTotal, #orderButton{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+  width:100%;
+  margin:0px;
+}
+#orderTotal{
+  background-color: lightgray;
+  border:1px solid black;
+  margin:5px;
+  margin-left:10px;
+  font-family: roboot;
+  font-size: 1.5em;
+  letter-spacing:0.09em;
+}
+
+#orderButton{
+  background-color:lightgray;
+  border:1px solid black;
+  margin:5px;
+  margin-right:10px;
+  font-family:robot;
+  font-size:1.5em;
+  letter-spacing: 0.09em;
+}
+#information{
+  display:none;
+}
+.info{
+  display:flex;
+  justify-content:flex-start;
+  align-items: center;
+  font-family:roboto;
+  font-size: 1em;
+  color:white;
+}
+.detailInputs{
+height:25px;
+width:225px;
+}
+#spanName{
+  padding-right:55px;
+}
+#spanAddress{
+  padding-right:40px;
+}
+#spanPhone{
+  padding-right:40px;
+}
+#order{
+
+}
+#congratulations{
+  display:none;
+  font-size:2em;
+  font-family:roboto;
+  height:100%;
+  width:200%;
+  background-color:lightgray;
+  border:1px solid black;
+  margin:5px;
+  letter-spacing: 0.09em;
+}
+.detailInputs{
+  color:black;
+}
